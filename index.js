@@ -5,7 +5,7 @@ const server = require('http').createServer(app);
 const io = require('socket.io')(server);
 const _ = require('underscore');
 
-const port = process.env.PORT || parseInt(process.argv.pop()) || 3002;
+const port = process.env.PORT || parseInt(process.argv.pop()) || 3001;
 
 server.listen(port, function () {
   console.log("Server listening at port %d", port);
@@ -35,7 +35,8 @@ app.post("/payment/:phone", (req, res) => {
       };
       oSocket.emit('receive message', data);
     } else {
-      throw new Exception("twilio code would go here");
+      // throw new Exception("twilio code would go here");
+
     }
   }
   if (oOrders[sFrom].isDone()) {

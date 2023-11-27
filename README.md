@@ -6,10 +6,11 @@ To run:
 
 1. Sign up for paypal developer sandbox and get a client id
 2. The first time run `npm install`
-3. `SB_CLIENT_ID=<put_in_your_client_id> npm start`
+3. `SB_CLIENT_ID=<AQQ8EE8kPvHcwe6qBbUmySPB7vWl79g6bWaNhwBveeOktw2c_zX7jvsNFXHCv8L9n1M59AWdIs4GjiMM> npm start`
+`SB_CLIENT_ID=<AQQ8EE8kPvHcwe6qBbUmySPB7vWl79g6bWaNhwBveeOktw2c_zX7jvsNFXHCv8L9n1M59AWdIs4GjiMM sb-sb-x843jl27527749_api1.business.example.com pw:  P9H7RND94FN349NV> npm start`
 
 ## Assignment 2
-
+\
 Extend the order bot from assignment 1. You need to have at least 2 items on the menu unless your favourite food is pizza in which case you need to have 3 (I did pizza already). The menu items need to have size and one other attribute like toppings. You also need an up-sell item like drinks in the example.
 
 For Assignment 2 you need to add paypal and a payment screen as in the scaffold.
